@@ -1,7 +1,7 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import MainContainer from "../../Components/MainContainer/MainContainer";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import styles from "./Contact.module.css";
 
 import EmailComponent from "../../Components/EmailComponent/EmailComponent";
@@ -11,32 +11,17 @@ function Contact() {
   return (
     <div>
       <Navbar />
-      <Circle top={"-5rem"} right={"-18rem"}/>
+      <Circle top={"-5rem"} right={"-18rem"} />
       <MainContainer>
         <ComponentTitle title={"Get in touch"} />
         <div className={styles.box}>
           <div className={styles.left_section_indexing}>
-            <EmailComponent/>
+            <EmailComponent />
           </div>
           <div className={styles.right_section_indexing}>
-            {/* Buttons to naviagate betwwen main and whatsapp  */}
-            {/* <div className={styles.button_section}>
-              <button className={`${styles.btn} ${styles.mail_btn}`}>
-                <i
-                  className={`fa-solid fa-envelope ${styles.button_icon} ${styles.mail_icon}`}
-                ></i>
-                Send Mail
-              </button>
-              <button className={`${styles.btn} ${styles.whatsapp_btn}`}>
-                <i
-                  className={`fa-brands fa-whatsapp ${styles.button_icon} ${styles.whatsapp_icon}`}
-                ></i>
-                Whatsapp
-              </button>
-            </div> */}
-            {/* Location Section  */}
+
             <div className={styles.location_services}>
-            <div className={styles.symbol}>
+              <div className={styles.symbol}>
                 <i className={`fa-solid fa-location-dot`}></i>
               </div>
               <p>Guntur, Andhra Pradesh</p>
@@ -57,7 +42,7 @@ function Contact() {
                 {/* this is my linked in platfrom  */}
                 <div className={styles.account_icon}>
                   <a
-                    href="https://www.linkedin.com/in/navya-sree-nallamothu-766982225/"
+                    href="https://www.linkedin.com/in/navya-sree-n/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

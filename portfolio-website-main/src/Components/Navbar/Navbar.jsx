@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import style from "./Navbar.module.css";
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
-  
+
   const navbar = useRef(null);
 
-  useEffect(function(){
-    
+  useEffect(function () {
+
     window.addEventListener("scroll", function () {
       if (window.scrollY > 50) {
         // Change 50 to the desired scroll position
@@ -16,11 +16,11 @@ function Navbar() {
         navbar.current?.classList.remove(style.scrolling);
       }
     });
-  },[])
+  }, [])
 
   return (
     <>
-      <div ref={navbar}  className={style.navbar}>
+      <div ref={navbar} className={style.navbar}>
         <div>
           <NavLink className={style.logo} to="/">
             Navya Sree
@@ -45,27 +45,27 @@ function Navbar() {
           </li>
           <li className={style.home_navigation}>
             <NavLink className={style.navigation} to="/">
-              
+
               <p>
-              <span className={style.nav_icons}>
-                <i className={`fa-solid fa-home ${style.home_icon}`}></i>
-              </span>
-                
+                <span className={style.nav_icons}>
+                  <i className={`fa-solid fa-home ${style.home_icon}`}></i>
+                </span>
+
               </p>
             </NavLink>
           </li>
           <li>
             <NavLink className={style.navigation} to="/skills">
-            <span className={style.nav_icons}>
-            <i className="fa-solid fa-code"></i>
+              <span className={style.nav_icons}>
+                <i className="fa-solid fa-code"></i>
               </span>
               Skills
             </NavLink>
           </li>
           <li>
             <NavLink className={style.navigation} to="/contact">
-            <span className={style.nav_icons}>
-            <i className="fa-solid fa-phone"></i>
+              <span className={style.nav_icons}>
+                <i className="fa-solid fa-phone"></i>
               </span>
               Contact
             </NavLink>
@@ -81,7 +81,7 @@ function Navbar() {
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/navya-sree-nallamothu-766982225/"
+            href="https://www.linkedin.com/in/navya-sree-n/"
             target="_blank"
             rel="noopener noreferrer"
             className={style.link}
