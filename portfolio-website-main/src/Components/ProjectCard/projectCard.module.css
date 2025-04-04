@@ -87,11 +87,12 @@
 .project_details {
   font-size: 0.9rem;
   margin-top: 0rem;
-  height: 4.3em;
+  /* height: 4.3em; */
   /* background-color: green; */
   text-align: justify;
   width: 95%;
   color: var(--gray);
+  height: auto; 
 }
 
 .technology_section{
@@ -162,8 +163,7 @@
   .project_card_component{
     margin: auto;
     /* padding-bottom: 1rem; */
-    height: fit-content;
-
+    height: auto;
   }
 
   .card_button_section{
