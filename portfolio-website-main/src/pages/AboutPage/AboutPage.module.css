@@ -187,8 +187,9 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 28rem;
-  /* width: 80%; */
-  height: 20rem;
+  height: auto;
+  min-height: 20rem;
+  /* height: 20rem; */
   padding: 1rem;
   border: 1px solid var(--fade);
   border-radius: 1rem;
@@ -310,8 +311,10 @@
 
   .certificate_card {
     margin: auto;
-    min-height: clamp(180px, 40vh, 300px);
-
+    /* min-height: clamp(180px, 400px); */
+    min-height: 22rem;
+    min-height: auto;
+    padding-bottom: 5rem;
   }
 
   .view_certificate_btn {
@@ -324,6 +327,7 @@
     text-align: center;
     /* right: 50%; */
     /* transform: translateX(60%); */
+    bottom: unset;
   }
 
 }

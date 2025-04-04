@@ -110,7 +110,7 @@ function Projects() {
               }
               projectName={"Library Management System"}
               projectDetails={
-                "Built a Library Management System using Spring Boot and MySQL with book checkout, search filters, Razorpay integration for fine payment, and an MVC-based UI."
+                "Built a Library Management System using Spring Boot, MySQL with book checkout, search filters, Razorpay API for fine payment, and an MVC-based UI."
               }
               demoImage={libraryImg}
               skill_img={[

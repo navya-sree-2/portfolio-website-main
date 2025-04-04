@@ -55,7 +55,8 @@ function HomePage() {
             {/* Passionate and detail-oriented Frontend Developer, Proficient in
             React.js along with HTML, CSS, and JavaScript, with a strong
             foundation in responsive design and user experience principles. */}
-            I am an enthusiastic and adaptable individual who eagerly embraces new challenges. Fueled by a passion for continuous learning, I am committed to delivering exceptional results. With a positive outlook and a mindset focused on growth, I am poised to make a meaningful impact and achieve significant accomplishments.
+            {/* I am an enthusiastic and adaptable individual who eagerly embraces new challenges. Fueled by a passion for continuous learning, I am committed to delivering exceptional results. With a positive outlook and a mindset focused on growth, I am poised to make a meaningful impact and achieve significant accomplishments. */}
+            I'm an aspiring software engineer who's open to challenges. I embrace the journey of learning and growing within a professional setting. Eagerly waiting for an opportunity to showcase my skills, learn and contribute.
           </motion.p>
           <motion.button
             initial={{ opacity: 0, x: "-7vw" }}
